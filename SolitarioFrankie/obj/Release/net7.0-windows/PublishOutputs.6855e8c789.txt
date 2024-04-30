@@ -1,0 +1,7 @@
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\SolitarioFrankie.exe
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\SolitarioFrankie.dll
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\SolitarioFrankie.deps.json
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\SolitarioFrankie.runtimeconfig.json
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\SolitarioFrankie.pdb
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\ClassiSolitarioFrankie.dll
+C:\Users\alessandro.crepaldi\Desktop\roba git\SOLITARIO-FRANKIE\SolitarioFrankie\bin\Release\net7.0-windows\app.publish\ClassiSolitarioFrankie.pdb

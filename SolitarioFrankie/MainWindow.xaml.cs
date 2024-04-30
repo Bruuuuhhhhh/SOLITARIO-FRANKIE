@@ -43,13 +43,14 @@ namespace SolitarioFrankie
 
         public void InizializzaImmagini()
         {
-            imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.jpg", UriKind.Relative));
-            imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[0]}.jpg", UriKind.Relative));
+            imgCartaInCima.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.CartaInCima}.jpg", UriKind.Relative));
+            imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[0]}.jpg", UriKind.Relative));
         }
 
         private void btnMazzoIniziale_Click(object sender, RoutedEventArgs e)
         {
             btnMazzoIniziale.IsEnabled = false;
+            btnMazzoDeposito.IsEnabled = false;
             if (g.GiraCarta())
             {
                 
@@ -69,6 +70,7 @@ namespace SolitarioFrankie
             {
                 imgMazzoInizialeStatica.Visibility = Visibility.Collapsed;
                 btnMazzoIniziale.IsEnabled = true;
+                btnMazzoDeposito.IsEnabled = true;
             }
         }
         private void SlideCardRight(object sender, RoutedEventArgs e)
@@ -101,12 +103,12 @@ namespace SolitarioFrankie
                 imgCartaDeposito.Visibility = Visibility.Collapsed;
                 if (cartaDeposito)
                 {
-                    imgCartaInCima.Source = new BitmapImage(new Uri($"{g.CartaInCima}.jpg", UriKind.Relative));
+                    imgCartaInCima.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.CartaInCima}.jpg", UriKind.Relative));
                     cartaDeposito = false;
                 }
                 else
                 {
-                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
                 btnMazzoIniziale.IsEnabled = true;
                 btnMazzoDeposito.IsEnabled = true;
@@ -115,6 +117,7 @@ namespace SolitarioFrankie
 
         private void btnMazzoDeposito_Click(object sender, RoutedEventArgs e)
         {
+            btnMazzoIniziale.IsEnabled = false;
             btnMazzoDeposito.IsEnabled = false;
             if (g.GiocaCarta())
             {
@@ -123,7 +126,7 @@ namespace SolitarioFrankie
                 cartaDeposito = true;        
                 if (!(g.MazzoDeposito.Count == 0))
                 {
-                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
+                    imgMazzoDepositoStatica.Source = new BitmapImage(new Uri($"Immagini\\Carte\\{g.MazzoDeposito[g.MazzoDeposito.Count - 1]}.jpg", UriKind.Relative));
                 }
                 else
                 {
@@ -142,6 +145,7 @@ namespace SolitarioFrankie
             }
             else
             {
+                btnMazzoIniziale.IsEnabled = true;
                 btnMazzoDeposito.IsEnabled = true;
             }
         }

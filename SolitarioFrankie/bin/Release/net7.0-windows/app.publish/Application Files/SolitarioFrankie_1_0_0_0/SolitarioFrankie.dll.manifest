@@ -59,7 +59,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>FrDxuB7sgg4v/bzRMFbtxBA3EDAPyiXetdS5naM1lK8=</dsig:DigestValue>
+      <dsig:DigestValue>/6KZwTDx8qYnQRIdOlfeo812g8GvmtpGK9PFWId2p7g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SolitarioFrankie.deps.json" size="774">
@@ -71,13 +71,13 @@
       <dsig:DigestValue>OjzLeWfHIffNZaPmJsgf4zJPuiJFfTsWV20d4yw1VXI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SolitarioFrankie.dll" size="54170624">
+  <file name="SolitarioFrankie.dll" size="56093696">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NchOtFCp2ra/PN4G8FBh7cJ2dVXiC0zhwPE9E4nxwGs=</dsig:DigestValue>
+      <dsig:DigestValue>kSHiBv4EOoJDtfMhNMDCth7ShUR7D4eUwGJyiFGi78c=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SolitarioFrankie.exe" size="157696">
@@ -86,16 +86,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>2Q6DGikt0xT4fTc1lQz3NvrxPjq54Hbu51nwTGJWPbY=</dsig:DigestValue>
+      <dsig:DigestValue>L6wD/SnYqfyLDddJFy6813ZsS5kuVdOUuCQw8wQHtsY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SolitarioFrankie.runtimeconfig.json" size="372">
+  <file name="SolitarioFrankie.runtimeconfig.json" size="458">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+      <dsig:DigestValue>YBIGLYblUb1QapC3Td+VcI9HtfEQ/6rQssb+JbeODyA=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
